@@ -1,0 +1,44 @@
+pragma solidity >=0.4.22 <0.9.0;
+
+contract RenewableEnergyContract {
+    // Define contract terms and variables
+    address public seller;
+    address public buyer;
+    uint public price;
+    uint public deliveryDate;
+    bool public contractExecuted;
+
+    // Define contract events
+    event ContractExecuted();
+
+    // Constructor function to initialize the contract
+    constructor() public {
+        seller = msg.sender;
+        price = 0;
+        deliveryDate = 0;
+        contractExecuted = false;
+    }
+
+    // Function to buy the contract
+    function buyContract() public payable {
+        require(msg.value == price, "Invalid price");
+        require(msg.sender != seller, "Cannot buy from yourself");
+        buyer = msg.sender;
+    }
+
+    // Function to execute the contract
+    function executeContract() public {
+        require(msg.sender == seller, "Only seller can execute");
+        require(block.timestamp >= deliveryDate, "Delivery date not reached");
+        require(!contractExecuted, "Contract already executed");
+
+        // Transfer funds to seller
+        seller.transfer(address(this).balance);
+
+        // Set contract as executed
+        contractExecuted = true;
+
+        // Emit contract executed event
+        emit ContractExecuted();
+    }
+}
