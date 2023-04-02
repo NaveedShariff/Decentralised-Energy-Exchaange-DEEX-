@@ -1,0 +1,88 @@
+const {
+  Client,
+  AccountCreateTransaction,
+  PrivateKey,
+  TokenCreateTransaction,
+  TokenAssociateTransaction,
+  TokenMintTransaction,
+  TokenBurnTransaction,
+  TokenWipeTransaction,
+  TokenGrantKycTransaction,
+  TokenRevokeKycTransaction,
+  TokenFreezeTransaction,
+  TokenUnfreezeTransaction,
+  TokenUpdateTransaction,
+  TransferTransaction,
+  Hbar,
+} = require("@hashgraph/sdk");
+
+// Initialize the client
+const client = Client.forTestnet();
+
+// Create an account
+const privateKey = PrivateKey.generate();
+const publicKey = privateKey.publicKey;
+const initialBalance = new Hbar(10);
+
+const transactionResponse = await new AccountCreateTransaction()
+  .setKey(publicKey)
+  .setInitialBalance(initialBalance)
+  .execute(client);
+
+const receipt = await transactionResponse.getReceipt(client);
+const accountId = receipt.accountId;
+
+// Create a token
+const tokenName = "Renewable Energy Token";
+const tokenSymbol = "RET";
+const tokenSupply = 10000000;
+
+const tokenTransactionResponse = await new TokenCreateTransaction()
+  .setTokenName(tokenName)
+  .setTokenSymbol(tokenSymbol)
+  .setTreasuryAccountId(accountId)
+  .setInitialSupply(tokenSupply)
+  .execute(client);
+
+const tokenId = (await tokenTransactionResponse.getReceipt(client)).tokenId;
+
+// Associate the token with the account
+const associateTransactionResponse = await new TokenAssociateTransaction()
+  .setAccountId(accountId)
+  .setTokenIds([tokenId])
+  .execute(client);
+
+// Mint new tokens
+const mintAmount = 100;
+
+const mintTransactionResponse = await new TokenMintTransaction()
+  .setTokenId(tokenId)
+  .setAmount(mintAmount)
+  .execute(client);
+
+// Burn tokens
+const burnAmount = 50;
+
+const burnTransactionResponse = await new TokenBurnTransaction()
+  .setTokenId(tokenId)
+  .setAmount(burnAmount)
+  .execute(client);
+
+// Transfer tokens
+const transferAmount = 20;
+const recipientId = "0.0.3";
+
+const transferTransactionResponse = await new TransferTransaction()
+  .addTokenTransfer(tokenId, accountId, -transferAmount)
+  .addTokenTransfer(tokenId, recipientId, transferAmount)
+  .execute(client);
+
+// Update token
+const newTokenName = "Renewable Energy Token";
+const newTokenSymbol = "RET";
+
+const updateTransactionResponse = await new TokenUpdateTransaction()
+  .setTokenId(tokenId)
+  .setTokenName(newTokenName)
+  .setTokenSymbol(newTokenSymbol)
+  .execute(client);
