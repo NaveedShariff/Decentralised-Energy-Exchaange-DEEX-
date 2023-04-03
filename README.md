@@ -4,18 +4,18 @@ Decentralised Energy Exchange (DEEX) does provides you the best market place for
 ## What is DEEX ?
 **DEEX** does stands for Decentralised Energy Exchanged which is the market place to buy the RECs. Here the [RECs(Renewable Energy Certificates)](https://www.investopedia.com/terms/r/rec.asp) does explains a lot about the purchasing of Renewable energy for promoting the sustainable future but there are lots of disadvantages in it.
 
-_User Experience:_ Purchasing the RECs is much difficult and complex process. It cannot be done without the help of a broker and this may cause heavy charges and loss of new buys.
+_*The problems with the REC (Renewable Energy Certificate) :*_
+
+_*User Experience:*_ Purchasing the RECs is much difficult and complex process. It cannot be done without the help of a broker and this may cause heavy charges and loss of new buys.
 
 _Less Liquid:_ Because of the complexities of purchasing the RECs creates less liquid. which is the buys finds hard to sell the certificates in their desired time.
 
 _No Profits:_ As it is not linked directly with the Industries, The buyers can't get any profits even if they sell it at any time and this makes less buyers or traders to participate because of the no-profit system.
 
-## Inspiration
-Inspiration for our idea comes from the REC (Renewable Energy Certificates), A Renewable Energy Certificate (REC) is a tradable certificate that represents proof that one megawatt-hour (MWh) of electricity was generated from a renewable energy source. RECs were created as a way to incentivize the production of renewable energy and to help meet renewable energy targets or goals set by governments or corporations.
+## How DEEX revolutionize the RECs ?
 
-RECs work by separating the environmental and social benefits of renewable energy production from the physical electricity. When a renewable energy generator produces one MWh of electricity, they can create one REC, which they can sell separately from the electricity itself. The purchaser of the REC can then claim that they have supported the production of renewable energy equivalent to the amount of electricity covered by the REC. *For example*, if a company wants to claim that they are using 100% renewable energy, they can purchase enough RECs to cover all of the electricity they consume. The purchase of RECs provides financial support to renewable energy generators and can help to reduce greenhouse gas emissions and other environmental impacts associated with energy production.
 
-*The problems with the REC (Renewable Energy Certificate) :*
+_*The problems with the REC (Renewable Energy Certificate) :*_
 User Experience: Purchasing the RECs is much difficult and complex process. It cannot be done without the help of a broker and this may cause heavy charges and loss of new buys.
 
 Less Liquid: Because of the complexities of purchasing the RECs creates less liquid. which is the buys finds hard to sell the certificates in their desired time.
