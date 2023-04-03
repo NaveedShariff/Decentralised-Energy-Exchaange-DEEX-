@@ -1,0 +1,41 @@
+pragma solidity ^0.8.0;
+
+contract RenewableEnergyUsage {
+    address public owner;
+    uint public energyProduced;
+    uint public energyConsumed;
+    mapping (address => uint) public energyBalance;
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    function recordEnergyProduced(uint amount) public {
+        require(msg.sender == owner, "Only owner can record energy produced");
+        energyProduced += amount;
+    }
+
+    function recordEnergyConsumed(address user, uint amount) public {
+        require(msg.sender == owner || msg.sender == user, "Only owner or user can record energy consumed");
+        require(amount <= energyBalance[user], "Insufficient energy balance");
+        energyBalance[user] -= amount;
+        energyConsumed += amount;
+    }
+
+    function addEnergyBalance(address user, uint amount) public {
+        require(msg.sender == owner || msg.sender == user, "Only owner or user can add energy balance");
+        energyBalance[user] += amount;
+    }
+
+    function getEnergyProduced() public view returns (uint) {
+        return energyProduced;
+    }
+
+    function getEnergyConsumed() public view returns (uint) {
+        return energyConsumed;
+    }
+
+    function getEnergyBalance(address user) public view returns (uint) {
+        return energyBalance[user];
+    }
+}
