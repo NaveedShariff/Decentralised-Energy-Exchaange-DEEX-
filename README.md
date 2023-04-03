@@ -27,7 +27,7 @@ The Decentralised Energy Exchange (DEEX) and the RET (Renewable Energy Tokens) a
 ![Code for the Renewable Energy Token RET](https://i.ibb.co/Q8c11Lx/code-1.png)
 
 We use React framework for the UI and this gives more user-friendly looks and the Decentralised Energy Exchange is created in the same bases with the help of solidity and with an option of exchanging the RET with other known tokens and the code link is given below.
-![Code for Decentralised Energy Exchange DEEX](img src="https://i.ibb.co/d4145Wd/code-2.png)
+![Code for Decentralised Energy Exchange DEEX](https://i.ibb.co/d4145Wd/code-2.png)
 
 Then to track renewable energy usage using Energy Web Zero, we have created a smart contract that records the energy produced and consumed, and allows users to view this information on the Decentralised Energy Exchange (DEEX).
 ![Code for renewable energy tracking](https://i.ibb.co/kGJcKFQ/code-3.png)
@@ -41,20 +41,20 @@ For example, let's say you have $10,000 that you want to invest in 10 different 
 Investment per Asset = $10,000 / 10 = $1,000
 
 This means that you would invest $1,000 in each of the 10 assets, creating a diversified investment portfolio. By investing equally in multiple companies, you can help to reduce the risk of losing all of your investment if one asset performs poorly.
-![Code for diversification](img src="https://i.ibb.co/F5kn0CZ/code-4.png)
+![Code for diversification](https://i.ibb.co/F5kn0CZ/code-4.png)
 
 ## Why DEEX is unique ?
 We encountered a number of roadblocks, and it was impossible to give up, so we handled our issues and got everything closer to completion. The main challenge here was building a partnership between the RET and the largest renewable energy providers, with which we had no prior experience. Nevertheless, we finally identified a technique for gathering investments into enterprises through the US stock market, and it will be the most secure and liquid option for quick buy and sale. Then we encountered a few simple issues, which we solved, but developing a marketplace for Renewable Energy Certificates (RECs) in Hedera blockchain is hard, and we will face hurdles such as:
 
-*Regulatory Compliance:* Renewable energy markets are highly regulated and it's important to ensure that the marketplace is compliant with local and national regulations. This can involve complying with standards such as the Renewable Energy Directive, Renewable Energy Certificates (REC) Standards, and other related standards.
+**Regulatory Compliance:** Renewable energy markets are highly regulated and it's important to ensure that the marketplace is compliant with local and national regulations. This can involve complying with standards such as the Renewable Energy Directive, Renewable Energy Certificates (REC) Standards, and other related standards.
 
-*Data Privacy* and Security: Since renewable energy certificates are issued based on energy production and consumption data, it's crucial to ensure that the data is securely collected, processed, and stored. The marketplace must also ensure that the personal data of users is protected and is not at risk of being accessed or hacked.
+**Data Privacy** and Security: Since renewable energy certificates are issued based on energy production and consumption data, it's crucial to ensure that the data is securely collected, processed, and stored. The marketplace must also ensure that the personal data of users is protected and is not at risk of being accessed or hacked.
 
-**Interoperability: **To ensure that the marketplace can be used by a wide range of stakeholders, including energy producers, consumers, and regulators, it is important to ensure that the marketplace is compatible with existing systems and platforms. This includes developing APIs and protocols that enable data exchange and integration with other systems.
+**Interoperability:** To ensure that the marketplace can be used by a wide range of stakeholders, including energy producers, consumers, and regulators, it is important to ensure that the marketplace is compatible with existing systems and platforms. This includes developing APIs and protocols that enable data exchange and integration with other systems.
 
-**Tokenization: **Tokenization is the process of representing a physical or digital asset as a blockchain-based digital token. Tokenizing RECs can provide benefits such as transparency, liquidity, and fractional ownership. However, tokenizing RECs can be challenging due to issues such as the lack of standardization and regulatory barriers.
+**Tokenization:** Tokenization is the process of representing a physical or digital asset as a blockchain-based digital token. Tokenizing RECs can provide benefits such as transparency, liquidity, and fractional ownership. However, tokenizing RECs can be challenging due to issues such as the lack of standardization and regulatory barriers.
 
-*Adoption:* The success of a marketplace for RECs depends on its ability to attract and engage stakeholders. This requires developing user-friendly interfaces, marketing efforts to reach a wider audience, and partnerships with key players in the renewable energy sector. but finally we get a satisfaction for the completion of the project
+**Adoption:** The success of a marketplace for RECs depends on its ability to attract and engage stakeholders. This requires developing user-friendly interfaces, marketing efforts to reach a wider audience, and partnerships with key players in the renewable energy sector. but finally we get a satisfaction for the completion of the project
 
 ![Diversifiying the tokens](https://i.ibb.co/R29wPfD/final.png)
 
