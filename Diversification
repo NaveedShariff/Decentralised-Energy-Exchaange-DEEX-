@@ -1,0 +1,31 @@
+pragma solidity ^0.8.0;
+
+contract DiversifiedInvestment {
+    address public owner;
+    uint public investmentAmount;
+    uint public assetCount;
+    mapping (address => uint) public assetBalance;
+
+    constructor(uint _investmentAmount, uint _assetCount) {
+        owner = msg.sender;
+        investmentAmount = _investmentAmount;
+        assetCount = _assetCount;
+    }
+
+    function invest() public payable {
+        require(msg.value == investmentAmount, "Investment amount must match");
+        uint amountPerAsset = msg.value / assetCount;
+        for (uint i = 0; i < assetCount; i++) {
+            assetBalance[address(i)] += amountPerAsset;
+        }
+    }
+
+    function getAssetBalance(address asset) public view returns (uint) {
+        return assetBalance[asset];
+    }
+
+    function withdraw() public {
+        require(msg.sender == owner, "Only owner can withdraw");
+        payable(msg.sender).transfer(address(this).balance);
+    }
+}
