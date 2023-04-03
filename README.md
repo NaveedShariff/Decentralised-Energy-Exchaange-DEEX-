@@ -4,33 +4,25 @@ Decentralised Energy Exchange (DEEX) does provides you the best market place for
 ## What is DEEX ?
 **DEEX** does stands for Decentralised Energy Exchanged which is the market place to buy the RECs. Here the [RECs(Renewable Energy Certificates)](https://www.investopedia.com/terms/r/rec.asp) does explains a lot about the purchasing of Renewable energy for promoting the sustainable future but there are lots of disadvantages in it.
 
-_*The problems with the REC (Renewable Energy Certificate) :*_
+_**The problems with the REC (Renewable Energy Certificate) :**_
 
-_*User Experience:*_ Purchasing the RECs is much difficult and complex process. It cannot be done without the help of a broker and this may cause heavy charges and loss of new buys.
+_**User Experience:**_ Purchasing the RECs is much difficult and complex process. It cannot be done without the help of a broker and this may cause heavy charges and loss of new buys.
 
-_Less Liquid:_ Because of the complexities of purchasing the RECs creates less liquid. which is the buys finds hard to sell the certificates in their desired time.
+_**Less Liquid:**_ Because of the complexities of purchasing the RECs creates less liquid. which is the buys finds hard to sell the certificates in their desired time.
 
-_No Profits:_ As it is not linked directly with the Industries, The buyers can't get any profits even if they sell it at any time and this makes less buyers or traders to participate because of the no-profit system.
+_**No Profits:**_ As it is not linked directly with the Industries, The buyers can't get any profits even if they sell it at any time and this makes less buyers or traders to participate because of the no-profit system.
 
 ## How DEEX revolutionize the RECs ?
 
+Our solution takes the REC to the next level. Initially, we established a token on the [Hedera Blockchain](https://hedera.com) called RET(Renewable Energy Token), and these tokens may be acquired in our Dapp Decentralised Energy Exchange(DEEX), which is based on the [Hedera Blockchain](https://hedera.com). When we look at the backend process for each RET transaction, we can see that the consumers first purchase the tokens from the Dapp, and then the acquired amount is invested in the top ten best renewable enterprises in the world. So it will be directly connected to the tokens and when these companies gets the investments then they will produce more Renewable energies and this makes a good increase in the industry
+![Basic Chart of purchasing](https://i.ibb.co/dcFyBgC/basic.png)
 
-_*The problems with the REC (Renewable Energy Certificate) :*_
-User Experience: Purchasing the RECs is much difficult and complex process. It cannot be done without the help of a broker and this may cause heavy charges and loss of new buys.
-
-Less Liquid: Because of the complexities of purchasing the RECs creates less liquid. which is the buys finds hard to sell the certificates in their desired time.
-
-No Profits: As it is not linked directly with the Industries, The buyers can't get any profits even if they sell it at any time and this makes less buyers or traders to participate because of the no-profit system.
-
-## What it does
-Our Solution takes the REC to the next level. First we created a token on the Hedera Blockchain and we named as RET (Renewable Energy Token) and these tokens can be purchased in our Dapp Decentralised Energy Exchange(DEEX) which is built on the Hedera Blockchain. When we see the backend process for every RET purchases, it does contains the users first who purchases the tokens from the Dapp then the purchased amount will be invested in the top 10 best renewable companies in the world. So it will be directly connected to the tokens and when these companies gets the investments then they will produce more Renewable energies and this is make a good increase in the industry and this will create profits for the users/buyers . ![Basic Chart of purchasing](https://i.ibb.co/dcFyBgC/basic.png)
-
-This system gives the profit and benefits for traders, Renewable energy companies and the better environment. It will satisfy all the content and obviously it is a win-win situation. We have built this technology with more security and efficiency. As the DEEX connects with the various different Renewable Energy Producing companies, the price of the RET will be also determined by the price movement of those companies. When the investments from the buyers/users are collected in the exchange of the RET, the renewable energy companies will get new investors and it will affect the stock price positively and creates the benefit for the more production and that will positively affect the buyer's profits too.
+This approach provides profit and benefits to traders, renewable energy companies, and the environment. That will fulfil all of the content, and it is clearly a win-win scenario. We designed this technology to be more secure and efficient. The price of the RET will be set by the price movement of the various [Renewable Energy Producing firms](https://www.investopedia.com/investing/top-alternative-energy-companies/) as the DEEX links with them. As the investments from buyers/users are gathered on the RET exchange, the renewable energy firms will gain new investors, which will positively effect the stock price and generate the advantage for greater production, which will also positively affect the buyer's profits.
 ![How it connects with the companies](https://i.ibb.co/HdJqHfN/main-flowchart.png)
 
-## How we built it
+## Working of DEEX
 The Decentralised Energy Exchange (DEEX) and the RET (Renewable Energy Tokens) are built and deployed on the Hedera Network. We used solidity as a base language and we chose HTS(Hedera Token Service) as the token standard rather then using the HRC-20, because HTS is a more advanced token standard that provides more flexibility in terms of token design and features. It includes features such as atomic swaps, token burning, and more.
-[Code for the Renewable Energy Token RET](https://github.com/NaveedShariff/Decentralised-Energy-Exchaange-DEEX-/blob/a89e3688279078e15670f93df3a0e2ef063113f7/token%20RET)
+![Code for the Renewable Energy Token RET](https://i.ibb.co/Q8c11Lx/code-1.png)
 
 We use React framework for the UI and this gives more user-friendly looks and the Decentralised Energy Exchange is created in the same bases with the help of solidity and with an option of exchanging the RET with other known tokens and the code link is given below.
 [Code for Decentralised Energy Exchange DEEX](https://github.com/NaveedShariff/Decentralised-Energy-Exchaange-DEEX-/blob/9a22618316f3889bc9ea89e82c3ab470010e82e1/DEEX)
